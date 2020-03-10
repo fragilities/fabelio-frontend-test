@@ -30,25 +30,34 @@ export default function List(props) {
         fetchAll();
     }, [filteredProducts]);
 
+    const renderList = () => {
+        if (!filteredProducts) {
+            return products && products.length > 0 ? (
+                products.map((product) => (
+                    <ListCard product={product} key={product.name} />
+                ))
+            ) : (
+                <p>No products</p>
+            );
+        } else {
+            return filteredProducts && filteredProducts.length > 0 ? (
+                filteredProducts.map((filteredProduct) => (
+                    <ListCard
+                        product={filteredProduct}
+                        key={filteredProduct.name}
+                    />
+                ))
+            ) : (
+                <p>No products</p>
+            );
+        }
+    };
+
     if (!products) return <p>Loading...</p>;
-    else if (!filteredProducts) {
-        return products && products.length > 0 ? (
-            products.map((product) => (
-                <ListCard product={product} key={product.name} />
-            ))
-        ) : (
-            <p>No products</p>
+    else
+        return (
+            <div className="flex justify-evenly overflow-y-visible flex-wrap py-4">
+                {renderList()}
+            </div>
         );
-    } else {
-        return filteredProducts && filteredProducts.length > 0 ? (
-            filteredProducts.map((filteredProduct) => (
-                <ListCard
-                    product={filteredProduct}
-                    key={filteredProduct.name}
-                />
-            ))
-        ) : (
-            <p>No products</p>
-        );
-    }
 }

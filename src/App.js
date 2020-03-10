@@ -6,7 +6,7 @@ import List from './containers/List.jsx';
 
 function App() {
     return (
-        <div className="flex flex-col overflow-x-hidden min-h-screen bg-gray-200">
+        <div className="flex flex-col overflow-x-hidden overflow-y-visible min-h-screen bg-gray-200">
             <FilterBar />
             <List />
         </div>
