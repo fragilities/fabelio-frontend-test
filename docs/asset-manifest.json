@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/fabelio-frontend-test/static/css/main.d1b05096.chunk.css",
-    "main.js": "/fabelio-frontend-test/static/js/main.d76e9747.chunk.js",
-    "main.js.map": "/fabelio-frontend-test/static/js/main.d76e9747.chunk.js.map",
-    "runtime-main.js": "/fabelio-frontend-test/static/js/runtime-main.13ea191f.js",
-    "runtime-main.js.map": "/fabelio-frontend-test/static/js/runtime-main.13ea191f.js.map",
-    "static/js/2.ce001945.chunk.js": "/fabelio-frontend-test/static/js/2.ce001945.chunk.js",
-    "static/js/2.ce001945.chunk.js.map": "/fabelio-frontend-test/static/js/2.ce001945.chunk.js.map",
-    "index.html": "/fabelio-frontend-test/index.html",
-    "precache-manifest.4effd4fe1e5ca91a6d6fe61f06bcf43e.js": "/fabelio-frontend-test/precache-manifest.4effd4fe1e5ca91a6d6fe61f06bcf43e.js",
-    "service-worker.js": "/fabelio-frontend-test/service-worker.js",
-    "static/css/main.d1b05096.chunk.css.map": "/fabelio-frontend-test/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.ce001945.chunk.js.LICENSE.txt": "/fabelio-frontend-test/static/js/2.ce001945.chunk.js.LICENSE.txt"
+    "main.css": "/static/css/main.d1b05096.chunk.css",
+    "main.js": "/static/js/main.2f0b95d5.chunk.js",
+    "main.js.map": "/static/js/main.2f0b95d5.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8cc5da75.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8cc5da75.js.map",
+    "static/js/2.ce001945.chunk.js": "/static/js/2.ce001945.chunk.js",
+    "static/js/2.ce001945.chunk.js.map": "/static/js/2.ce001945.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.9036e5dd0c6ff151cb298e7301f44113.js": "/precache-manifest.9036e5dd0c6ff151cb298e7301f44113.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.ce001945.chunk.js.LICENSE.txt": "/static/js/2.ce001945.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.13ea191f.js",
+    "static/js/runtime-main.8cc5da75.js",
     "static/js/2.ce001945.chunk.js",
     "static/css/main.d1b05096.chunk.css",
-    "static/js/main.d76e9747.chunk.js"
+    "static/js/main.2f0b95d5.chunk.js"
   ]
 }
