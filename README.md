@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Deploy link: http://fabelio-test.s3-website-ap-southeast-1.amazonaws.com/
+
 ## Available Scripts
 
 In the project directory, you can run:
